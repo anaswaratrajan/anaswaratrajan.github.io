@@ -1,5 +1,5 @@
 import React, { useContext } from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import ThemeContext from "../utils/theme"
 import { PageLayout } from "../components"
 import { SEO } from "../utils"
@@ -30,8 +30,8 @@ export default ({ data }) => {
           </h1>
           <p>
             <i>
-              {occupation} by day,&nbsp;
-              {dark ? `Imperial enforcer by night` : `Rebel scum by night`}
+              {occupation} | Former SDE intern @<Link to="https://www.compile.com/">CompileInc </Link>
+               | Co-founder & Contributer @<Link to="https://github.com/RocketMeet">RocketMeet</Link>
             </i>
           </p>
         </Container>
