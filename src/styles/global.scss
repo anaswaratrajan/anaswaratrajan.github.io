@@ -54,8 +54,8 @@ body {
 
 // light mode
 .custom-control-input ~ .custom-control-label::before {
-  border-color: $yellow;
-  background-color: $yellow;
+  border-color: $cyan;
+  background-color: $cyan;
 }
 
 .custom-switch .custom-control-input ~ .custom-control-label::after {
@@ -64,12 +64,12 @@ body {
 
 // dark mode
 .custom-control-input:checked ~ .custom-control-label::before {
-  border-color: $black;
-  background-color: $black;
+  border-color: $light-blue;
+  background-color: $light-blue;
 }
 
 .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
-  background-color: $red;
+  background-color: $white;
 }
 /** Toggle Switch Styling END */
 
@@ -88,7 +88,7 @@ body {
   font-size: 2.75rem;
   color: $gray-700;
   &:hover {
-    color: $faded-red;
+    color: $primary-blue;
   }
   &.empire {
     border-radius: 50%;
@@ -99,6 +99,10 @@ body {
       background: $white;
     }
   }
+}
+
+a {
+  color: $gray-700 !important;
 }
 /** Home Page Icon Styling END */
 
