@@ -7,12 +7,12 @@ startDate: "2020-05-07"
 endDate: "2020-07-07"
 ---
 
-- Developed a full stack application (Django Rest Framework + Nuxtjs) called NDC-HCPCS search tool that queries and returns csv exportable search results of drug data from the given keyword/ csv, which added value to CompileInc’s healthgraph tool.</p>
+• Co-developed NDC-HCPCS search tool, an industry-leading product in Commercial healthcare made with Django Rest Framework and Nuxtjs that queries and returns csv exportable search results of drug data.
 
-* Worked on ETL pipelines that updates a postgres database daily with cronjobs from frequently changing source
-datasets.</p>
+• Created ETL pipelines that updates a postgres database daily with cronjobs from source datasets and optimised through memory profiling.
 
-* Extracted SEO relevant long tail keywords from Commercial healthcare company websites with scrapy spiders,
-generated keyword reports for data analysis.</p>
+• Implemented various software features and interactive UI components in accordance with design specifications in NDC-HCPCs search tool client.
 
-* Created an automated page generation command for CompileInc website from given CSV.</p>
+• Extracted SEO relevant long tail keywords from Commercial healthcare company websites with scrapy spiders, generated keyword reports for data analysis.
+
+• Integrated an automated page generation tool with Django to CompileInc blog.
