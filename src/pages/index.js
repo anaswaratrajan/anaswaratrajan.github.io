@@ -38,7 +38,7 @@ export default ({ data }) => {
         <hr className="my-3 w-25" />
         <div className="d-md-inline-flex icons-container">
           <a
-            href="https://www.github.com"
+            href="https://www.github.com/anaswaratrajan"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -49,7 +49,7 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/anaswaratrajan"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -60,7 +60,7 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="https://www.freecodecamp.org"
+            href="https://www.freecodecamp.org/anaswaratrajan"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -71,18 +71,18 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="https://www.hackerrank.com/"
+            href="https://www.twitter.com/anasr7070"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon
-              icon={["fab", "hackerrank"]}
+              icon={["fab", "twitter"]}
               className="icons hr"
-              title="Hackerrank"
+              title="Twitter"
             />
           </a>
           <a
-            href="mailto:johndoe@gmail.com"
+            href="mailto:anaswaratrajan@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
