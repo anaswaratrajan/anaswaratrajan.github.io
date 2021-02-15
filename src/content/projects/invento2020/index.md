@@ -1,8 +1,8 @@
 ---
-title: "Makolearning hub"
-projectlink: "https://makolearning.com"
-tags: ["Express", "Nuxtjs", "Firebase", "Firestore"]
-date: "2020-07-01"
+title: "Invento 2020 - annual techfest website"
+githublink: "https://github.com/hemangsrr/invento20"
+tags: ["Express", "React", "Firebase"]
+date: "2020-02-15"
 ---
 
 • Worked as a full stack web developer on Makolearning Hub, a 1-1 e-tutoring platform built with Express, Nuxt and Firebase with a team of 3.

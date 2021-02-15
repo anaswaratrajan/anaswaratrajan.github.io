@@ -1,11 +1,10 @@
 ---
 title: "Habitat"
-projectlink: "https://ndctool.compile.com"
-githublink: "Not opensourced"
+githublink: "https://github.com/anaswaratrajan/habitat_dash"
 tags: ["Flask", "Plotly"]
-date: "2020-05-13"
+date: "2020-01-10"
 ---
 
-Created a plotly app using flask that visualizes humidity data of australia as part of project habitat.
+• Created a plotly app using flask that visualizes humidity data of australia as part of project habitat.
 
-Habitat is a website that helps locate wildfire prone areas in australia and report them to authorities and won first prize.
+• Won 1st prize out of 12 teams in Mini-hackathon, GEC Palakkad.

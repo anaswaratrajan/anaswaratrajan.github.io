@@ -1,8 +1,7 @@
 ---
-title: "varys"
-link: "https://www.compile.com/"
+title: "Varys"
 tags: ["Scrapy", "pandas"]
-date: "2020-05-13"
+date: "2020-05-12"
 ---
 
 * Extracted SEO relevant long tail keywords from Commercial healthcare company websites with scrapy spiders,

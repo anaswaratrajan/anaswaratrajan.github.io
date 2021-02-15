@@ -1,7 +1,6 @@
 ---
 title: "Chunked set"
-projectlink: "https://ndctool.compile.com"
-githublink: "Not opensourced"
+githublink: "https://github.com/anaswaratrajan/ChunkedSet"
 tags: ["Flask"]
-date: "2020-05-13"
+date: "2020-03-30"
 ---
