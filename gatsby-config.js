@@ -6,9 +6,6 @@
 
 module.exports = {
   /* Your site config here */
-  flags: {
-    DEV_SSR: false
-  },
   siteMetadata: {
     title: `Anaswara Rajan`,
     author: `Anaswara Rajan`,
