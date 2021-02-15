@@ -14,7 +14,7 @@ export default ({ data }) => {
     <PageLayout>
       <SEO title="Projects" />
       <PageTitle title="Projects" />
-      <Container className="text-center">
+      <Container className="text-left card">
         <section>
           {allProjects.map(({ node }) => (
             <div key={node.id} className="p-3">
@@ -23,6 +23,8 @@ export default ({ data }) => {
                 featuredImages={featuredImageMap[node.fields.slug]}
                 title={node.frontmatter.title}
                 tags={node.frontmatter.tags}
+                projectlink={node.frontmatter.projectlink}
+                githublink={node.frontmatter.githublink}
                 excerpt={node.excerpt}
               />
               <hr />
@@ -47,6 +49,8 @@ export const query = graphql`
           timeToRead
           frontmatter {
             title
+            projectlink
+            githublink
             description
             tags
             date(formatString: "DD MMMM, YYYY")

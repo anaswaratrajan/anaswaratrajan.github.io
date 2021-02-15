@@ -12,19 +12,10 @@ export default ({ data }) => {
   return (
     <PageLayout>
       <SEO title="Home" />
-      <Container className="text-center pt-4 mt-4" fluid>
-      {/*<Image
-        width="150"
-        height="150"
-        fluid
-        src={dark ? `../../icons/leia.png` : `../../icons/r2-d2.png`}
-        //src=`../../icons/darth-vader.png`
-        alt={dark ? "Darth Vader" : "R2-D2"}
-        //alt="Darth Vader"
-      />*/}
+      <Container className="text-center pt-5 mt-5" fluid>
         {unemployed && (
           <p className="mt-2">
-            <b> Hey! I am looking for new opportunities :)</b>
+            <b> Hey there! I'm open to work :D</b>
           </p>
         )}
         <Container className="py-0 my-0">
@@ -40,14 +31,14 @@ export default ({ data }) => {
           <p>
             <i>
               {occupation} by day,&nbsp;
-              `Rebel scum by night`
+              {dark ? `Imperial enforcer by night` : `Rebel scum by night`}
             </i>
           </p>
         </Container>
         <hr className="my-3 w-25" />
         <div className="d-md-inline-flex icons-container">
           <a
-            href="https://www.github.com/anaswaratrajan"
+            href="https://www.github.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -58,7 +49,7 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="https://linkedin.com/in/anaswaratrajan"
+            href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -69,17 +60,17 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="https://www.twitter.com/anasr7070"
+            href="https://www.freecodecamp.org"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon
-              icon={["fab", "twitter"]}
+              icon={["fab", "free-code-camp"]}
               className="icons fcc"
               title="FreeCodeCamp"
             />
           </a>
-          {/*<a
+          <a
             href="https://www.hackerrank.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -89,10 +80,9 @@ export default ({ data }) => {
               className="icons hr"
               title="Hackerrank"
             />
-          </a>*/}
-
+          </a>
           <a
-            href="mailto:anaswaratrajan@gmail.com"
+            href="mailto:johndoe@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -102,17 +92,6 @@ export default ({ data }) => {
               title="e-mail"
             />
           </a>
-          {/*<a
-            class="custom-link"
-            href="https://www.twitter.com/anasr7070"
-            target="_blank"
-          >
-            <img
-              class="custom-icon icons file"
-              src="../../icons/codingame.png"
-            />
-          </a>*/}
-
           <a href="../../resume.pdf" target="_blank" download>
             <FontAwesomeIcon
               icon={["fas", "file-alt"]}
@@ -120,7 +99,6 @@ export default ({ data }) => {
               title="Resume"
             />
           </a>
-
         </div>
       </Container>
     </PageLayout>

@@ -36,7 +36,7 @@ export default ({ data }) => {
           rounded
           width="140"
           height="140"
-          src={`../../icons/leia.png`}
+          src={`../../icons/luke-${toString()}.png`}
           alt={author}
         />
         <article className="w-75 m-auto pt-2 text-justify">
@@ -58,12 +58,17 @@ export default ({ data }) => {
               padawan
             </a>
             &nbsp;
-            <b>{occupation}</b> discovering the ways of the code. I am a self-taught python and JavaScript developer looking for
-            passionate work and building my skills. I hope to work on interesting and cool projects,
-            Collaborate with awesome minds. Boost my creativity and Engineer what matters.
+            <b>{occupation}</b> discovering the ways of the code. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
           </p>
           <p className="i-5">
-            In my spare time, I clash on codingame and explore interesting space tech projects.
+            In my spare time, Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.
           </p>
           <p className="i-5">
             Check out my <Link to="/projects">projects</Link> to see what I've

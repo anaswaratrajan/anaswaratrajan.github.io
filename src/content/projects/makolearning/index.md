@@ -1,6 +1,7 @@
 ---
 title: "Makolearning hub"
-link: "https://makolearning.com/"
+projectlink: "https://ndctool.compile.com"
+githublink: "Not opensourced"
 tags: ["Express", "React", "Firebase"]
 date: "2020-05-13"
 ---

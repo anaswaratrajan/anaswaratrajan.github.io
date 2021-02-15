@@ -105,3 +105,14 @@ body {
 .unemployed {
   font-size: 1.35rem;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #efefef;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #cccccc;
+}

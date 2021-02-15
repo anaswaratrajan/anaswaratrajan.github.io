@@ -1,6 +1,7 @@
 ---
 title: "Habitat"
-link: "https://github.com/anaswaratrajan/habitat_dash"
+projectlink: "https://ndctool.compile.com"
+githublink: "Not opensourced"
 tags: ["Flask", "Plotly"]
 date: "2020-05-13"
 ---
